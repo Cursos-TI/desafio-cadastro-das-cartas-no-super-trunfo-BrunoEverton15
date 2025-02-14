@@ -37,7 +37,7 @@ int main() {
 
         printf("Nome da Cidade: %s - Codigo da Cidade: %d\n", nome, codigo_da_cidade);
         printf("Pontos Turisticos: %d - Habitantes: %d\n", numero_pontos_turisticos, populacao);
-    printf("Expansao da Area: %f - Numero Pib: %f", area, pib);
+        printf("Expansao da Area: %f - Numero Pib: %f", area, pib);
 
 
     // Exibição dos Dados das Cartas:
