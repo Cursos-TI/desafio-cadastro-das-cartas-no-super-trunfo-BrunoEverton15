@@ -1,7 +1,14 @@
 #include <stdio.h>;
 
+
 int main(){
-// Variaveis da carta 1
+
+
+printf("--------------------CADASTRO DE CARTAS SUPER TRUNFO--------------------\n");
+
+
+
+    // Variaveis da carta 1
     char estado1[10];
     char codigo1[5];
     char cidade1[20];
