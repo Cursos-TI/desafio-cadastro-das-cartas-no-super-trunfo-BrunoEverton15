@@ -18,6 +18,7 @@ printf("--------------------CADASTRO DE CARTAS SUPER TRUNFO--------------------\
     float pib1;
 
 
+
     // Variaveis da carta 2
      char estado2[100];
     char codigo2[5];
