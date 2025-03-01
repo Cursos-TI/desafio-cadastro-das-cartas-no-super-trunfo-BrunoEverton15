@@ -16,6 +16,9 @@ printf("--------------------CADASTRO DE CARTAS SUPER TRUNFO--------------------\
     int Pontosturistico1;
     float area1;
     float pib1;
+    float densidadepopulacional;
+    float Pibpercapita1;
+    float Divisao;
 
 
 
@@ -54,6 +57,9 @@ printf("--------------------CADASTRO DE CARTAS SUPER TRUNFO--------------------\
     printf("Quantidade de Pontos Turisticos 1: \n");
     scanf("%d", &Pontosturistico1);
 
+//Opercaao Divisao
+Divisao = populacao1 / area1;
+Divisao = pib1 / populacao1;
 
     // Leitura de Carta 2
 
@@ -92,6 +98,9 @@ printf("--------------------CADASTRO DE CARTAS SUPER TRUNFO--------------------\
     printf("Area: %f  km²\n", area1);
     printf("Pib: %lf Bilhoes de Reais \n", pib1);
     printf("Pontos Turisticos: %d \n", Pontosturistico1);
+    printf("Densidade Populacional: %.2f hab/km² \n", Divisao);
+    printf("Pib Per Capita: %.2f", Divisao);
+
 
 
     // DADAOS CARTA 2: \n;
